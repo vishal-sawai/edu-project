@@ -1,0 +1,27 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Home */
+
+.home {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    filter: brightness(0.5);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: green;
+}

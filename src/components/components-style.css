@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.body {
+    background-color: rgb(255, 242, 242);
+}
+
+.heading {
+    margin: auto;
+    display: flex;
+}
+
+.heading h1 {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    color: darkblue;
+}
+
+/* navbar */
+
+#navbar nav {
+    display: flex;
+    flex-direction: row;
+    z-index: 60;
+    padding-left: 242px;
+    position: fixed;
+}
+
+.comLink {
+    color: black;
+    font-weight: bolder;
+    float: left;
+    text-align: center;
+    padding: 18px 35px;
+    text-decoration: none;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 100%;
+    position: fixed;
+    background-color: #ffc107;
+    z-index: 50;
+}
+
+.m-i {
+    float: left;
+    height: 65px;
+}
+
+.comLink:hover {
+    background-color: #f5de9b;
+    transition: 0.40s;
+}
+
+.menu-button {
+    z-index: 90;
+    display: none;
+}
+
+/* courses */
+
+.courses {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px;
+}
+
+.course-name {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px blue;
+    width: 300px;
+}
+
+.course-name button {
+    font-size: 20px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: #c49509;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.course-name button:hover {
+    background-color: #dfa909;
+}
+
+/* contact */
+
+.contact-form {
+    display: flex;
+    margin: auto;
+}
+
+.contact-form form {
+    margin: auto;
+    background-color: white;
+    padding: 50px 200px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.person-name {
+    display: flex;
+    margin: auto;
+}
+
+.contact-info label {
+    font-size: 25px;
+    margin: 20px 0px 0px 10px;
+}
+
+.contact-info input {
+    font-size: 15px;
+    margin: 5px 10px 15px 10px;
+    width: 530px;
+    padding: 5px 5px;
+    outline: none;
+}
+
+.contact-info textarea {
+    font-size: 15px;
+    margin: 5px 10px;
+    width: 530px;
+    height: 100px;
+    padding: 5px 5px;
+    outline: none;
+    resize: vertical;
+}
+
+.person-name input {
+    width: 250px;
+}
+
+.contact-btn input {
+    width: 540px;
+    background-color: rgb(66, 66, 253);
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 7px 0px;
+    border: none;
+}
+
+.contact-btn input:hover {
+    background-color: rgb(0, 0, 255);
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffc107;
+    font-size: 20px;
+    padding: 20px 0px 10px 0px;
+}
+
+/* CNavbar */
+
+.is-active {
+    background-color: #f0e4e4;
+}
+
+.CNHome {
+    background-color: green;
+    color: white;
+}
+
+/* code page */
+
+.Code-Page {
+    padding-top: 65px;
+    margin: auto;
+    display: flex;
+}
+
+.Code-Page-Navbar {
+    margin: auto;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    list-style: none;
+    font-size: 20px;
+    /* padding: 10px 10px; */
+    width: 20%;
+    height: 100%;
+    /* overflow: scroll; */
+    position: fixed;
+    scroll-behavior: smooth;
+    margin-right: 50px;
+
+}
+
+.Code-Page-Navbar li {
+    padding: 8px 0px;
+    border: 0.50px solid rgb(167, 69, 69);
+    border-right: none;
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(112, 228, 66);
+}
+
+.Code-Page-Navbar li:hover {
+    background-color: rgb(72, 255, 0);
+    transition: 0.40s;
+}
+
+.Code-Page-Content {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.Code-Page-Title {
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.Code-Page-description {
+    width: 100%;
+    margin-bottom: 30px;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.Code-Page-Program {
+    background-color: #383b40;
+    padding: 5px 30px;
+    width: 100%;
+    margin-bottom: 18px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.syntax {
+    background-color: #383b40 !important;
+    line-height: 30px !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0px !important;
+}
+
+.copybtn {
+    float: right;
+    cursor: pointer;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.copybtn:hover {
+    height: 42px;
+}
+
+.Code-Page-Program-Output span {
+    font-weight: bolder;
+    font-size: 30px;
+    color: darkblue;
+}
+
+.Code-Page-Program-Output p {
+    background-color: #383b40;
+    color: white;
+    padding: 15px 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.copybtn::after {
+    display: none;
+}
